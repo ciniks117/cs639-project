@@ -1,0 +1,19 @@
+language: python
+python:
+  - "2.7"
+  - "3.4"
+  - "3.6"
+
+addons:
+  apt:
+    packages:
+      - g++
+      - libppl-dev
+      - libgmp-dev
+
+# command to install dependencies
+install: "cat requirements.txt | xargs -n 1 -L 1 pip install"
+# command to run tests
+script:
+  - python setup.py install
+  - nosetests

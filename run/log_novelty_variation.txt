@@ -1,0 +1,279 @@
+
+--- new instance ---
+
+Setting random seed to 0
+Loaded model from ../models/CNY19id1_MNIST_0-1.h5
+Data: classes 0-1 with 12665 inputs (monitor training), classes 0-1 with 2115 inputs (monitor test), classes 0-9 with 10000 inputs (monitor run)
+Watching the following layers:
+- layer 8 with 40 neurons
+- layer 9 with 2 neurons
+- layer 6 with 160 neurons
+- layer 7 with 80 neurons
+
+--- monitor training ---
+
+extracting data for watched layers
+determining optimal clusters for each layer and class (0.07, None)
+Layer 8:
+ class 0 will use 12 clusters
+ class 1 will use 11 clusters
+Layer 9:
+ class 0 will use 43 clusters
+ class 1 will use 47 clusters
+Layer 6:
+ class 0 will use 8 clusters
+ class 1 will use 6 clusters
+Layer 7:
+ class 0 will use 13 clusters
+ class 1 will use 8 clusters
+Layer 8:
+ class 0 will use 12 clusters
+ class 1 will use 11 clusters
+Layer 9:
+ class 0 will use 38 clusters
+ class 1 will use 47 clusters
+Layer 6:
+ class 0 will use 8 clusters
+ class 1 will use 6 clusters
+Layer 7:
+ class 0 will use 13 clusters
+ class 1 will use 8 clusters
+training monitors on the obtained data
+training monitor 1
+training monitor 3
+training monitor 2
+
+--- running monitored session ---
+
+running monitor 1 on the inputs
+running monitor 2 on the inputs
+running monitor 3 on the inputs
+overall statistics
+10.16 seconds for extracting 12665 values during monitor training
+102.49 seconds for clustering during monitor training
+19.98 seconds for monitor training on 12665 samples
+7.93 seconds for extracting 10000 values during running the monitored session
+17.00 seconds for running the monitored session on 10000 samples
+
+printing statistics for monitor 1 with abstraction structure layer 9: Box, layer 8: Box, layer 7: Box, layer 6: Box
+2.30 seconds for training the monitor on 12665 samples
+1.90 seconds for running the monitor on 10000 samples
+
+printing statistics for monitor 2 with abstraction structure layer 9: Box, layer 8: Box, layer 7: Box, layer 6: Box
+2.94 seconds for training the monitor on 12665 samples
+2.06 seconds for running the monitor on 10000 samples
+
+printing statistics for monitor 3 with abstraction structure layer 8: BooleanAbstraction
+14.66 seconds for training the monitor on 12665 samples
+13.04 seconds for running the monitor on 10000 samples
+
+--- new instance ---
+
+Setting random seed to 0
+Loaded model from ../models/CNY19id1_MNIST_0-2.h5
+Data: classes 0-2 with 18623 inputs (monitor training), classes 0-2 with 3147 inputs (monitor test), classes 0-9 with 10000 inputs (monitor run)
+Watching the following layers:
+- layer 8 with 40 neurons
+- layer 9 with 3 neurons
+- layer 6 with 160 neurons
+- layer 7 with 80 neurons
+
+--- monitor training ---
+
+extracting data for watched layers
+determining optimal clusters for each layer and class (0.07, None)
+Layer 8:
+ class 0 will use 8 clusters
+ class 1 will use 8 clusters
+ class 2 will use 8 clusters
+Layer 9:
+ class 0 will use 31 clusters
+ class 1 will use 38 clusters
+ class 2 will use 29 clusters
+Layer 6:
+ class 0 will use 7 clusters
+ class 1 will use 8 clusters
+ class 2 will use 4 clusters
+Layer 7:
+ class 0 will use 8 clusters
+ class 1 will use 8 clusters
+ class 2 will use 6 clusters
+Layer 8:
+ class 0 will use 8 clusters
+ class 1 will use 8 clusters
+ class 2 will use 8 clusters
+Layer 9:
+ class 0 will use 36 clusters
+ class 1 will use 42 clusters
+ class 2 will use 26 clusters
+Layer 6:
+ class 0 will use 7 clusters
+ class 1 will use 8 clusters
+ class 2 will use 5 clusters
+Layer 7:
+ class 0 will use 8 clusters
+ class 1 will use 8 clusters
+ class 2 will use 6 clusters
+training monitors on the obtained data
+training monitor 1
+training monitor 3
+training monitor 2
+
+--- running monitored session ---
+
+running monitor 1 on the inputs
+running monitor 2 on the inputs
+running monitor 3 on the inputs
+overall statistics
+17.53 seconds for extracting 18615 values during monitor training
+136.32 seconds for clustering during monitor training
+28.79 seconds for monitor training on 18615 samples
+7.72 seconds for extracting 10000 values during running the monitored session
+19.40 seconds for running the monitored session on 10000 samples
+
+printing statistics for monitor 1 with abstraction structure layer 9: Box, layer 8: Box, layer 7: Box, layer 6: Box
+3.67 seconds for training the monitor on 18615 samples
+1.60 seconds for running the monitor on 10000 samples
+
+printing statistics for monitor 2 with abstraction structure layer 9: Box, layer 8: Box, layer 7: Box, layer 6: Box
+3.92 seconds for training the monitor on 18615 samples
+1.87 seconds for running the monitor on 10000 samples
+
+printing statistics for monitor 3 with abstraction structure layer 8: BooleanAbstraction
+21.02 seconds for training the monitor on 18615 samples
+15.93 seconds for running the monitor on 10000 samples
+
+--- new instance ---
+
+Setting random seed to 0
+Loaded model from ../models/CNY19id1_MNIST_0-3.h5
+Data: classes 0-3 with 24754 inputs (monitor training), classes 0-3 with 4157 inputs (monitor test), classes 0-9 with 10000 inputs (monitor run)
+Watching the following layers:
+- layer 8 with 40 neurons
+- layer 9 with 4 neurons
+- layer 6 with 160 neurons
+- layer 7 with 80 neurons
+
+--- monitor training ---
+
+extracting data for watched layers
+determining optimal clusters for each layer and class (0.07, None)
+Layer 8:
+ class 0 will use 9 clusters
+ class 1 will use 10 clusters
+ class 2 will use 8 clusters
+ class 3 will use 8 clusters
+Layer 9:
+ class 0 will use 36 clusters
+ class 1 will use 42 clusters
+ class 2 will use 19 clusters
+ class 3 will use 27 clusters
+Layer 6:
+ class 0 will use 6 clusters
+ class 1 will use 8 clusters
+ class 2 will use 4 clusters
+ class 3 will use 5 clusters
+Layer 7:
+ class 0 will use 8 clusters
+ class 1 will use 9 clusters
+ class 2 will use 6 clusters
+ class 3 will use 6 clusters
+Layer 8:
+ class 0 will use 9 clusters
+ class 1 will use 10 clusters
+ class 2 will use 8 clusters
+ class 3 will use 8 clusters
+Layer 9:
+ class 0 will use 39 clusters
+ class 1 will use 40 clusters
+ class 2 will use 26 clusters
+ class 3 will use 31 clusters
+Layer 6:
+ class 0 will use 6 clusters
+ class 1 will use 8 clusters
+ class 2 will use 4 clusters
+ class 3 will use 5 clusters
+Layer 7:
+ class 0 will use 8 clusters
+ class 1 will use 9 clusters
+ class 2 will use 6 clusters
+ class 3 will use 6 clusters
+training monitors on the obtained data
+training monitor 1
+training monitor 3
+training monitor 2
+
+--- running monitored session ---
+
+running monitor 1 on the inputs
+running monitor 2 on the inputs
+running monitor 3 on the inputs
+overall statistics
+28.36 seconds for extracting 24711 values during monitor training
+171.60 seconds for clustering during monitor training
+40.97 seconds for monitor training on 24711 samples
+8.84 seconds for extracting 10000 values during running the monitored session
+17.49 seconds for running the monitored session on 10000 samples
+
+printing statistics for monitor 1 with abstraction structure layer 9: Box, layer 8: Box, layer 7: Box, layer 6: Box
+4.73 seconds for training the monitor on 24711 samples
+1.86 seconds for running the monitor on 10000 samples
+
+printing statistics for monitor 2 with abstraction structure layer 9: Box, layer 8: Box, layer 7: Box, layer 6: Box
+5.34 seconds for training the monitor on 24711 samples
+2.19 seconds for running the monitor on 10000 samples
+
+printing statistics for monitor 3 with abstraction structure layer 8: BooleanAbstraction
+30.76 seconds for training the monitor on 24711 samples
+13.44 seconds for running the monitor on 10000 samples
+
+--- new instance ---
+
+Setting random seed to 0
+Loaded model from ../models/CNY19id1_MNIST_0-4.h5
+Data: classes 0-4 with 30596 inputs (monitor training), classes 0-4 with 5139 inputs (monitor test), classes 0-9 with 10000 inputs (monitor run)
+Watching the following layers:
+- layer 8 with 40 neurons
+- layer 9 with 5 neurons
+- layer 6 with 160 neurons
+- layer 7 with 80 neurons
+
+--- monitor training ---
+
+extracting data for watched layers
+determining optimal clusters for each layer and class (0.07, None)
+Layer 8:
+ class 0 will use 8 clusters
+ class 4 will use 8 clusters
+ class 1 will use 8 clusters
+ class 2 will use 6 clusters
+ class 3 will use 8 clusters
+Layer 9:
+ class 0 will use 28 clusters
+ class 4 will use 31 clusters
+ class 1 will use 19 clusters
+ class 2 will use 18 clusters
+ class 3 will use 27 clusters
+Layer 6:
+ class 0 will use 5 clusters
+ class 4 will use 5 clusters
+ class 1 will use 6 clusters
+ class 2 will use 4 clusters
+ class 3 will use 5 clusters
+Layer 7:
+ class 0 will use 7 clusters
+ class 4 will use 7 clusters
+ class 1 will use 8 clusters
+ class 2 will use 5 clusters
+ class 3 will use 6 clusters
+Layer 8:
+ class 0 will use 8 clusters
+ class 4 will use 8 clusters
+ class 1 will use 8 clusters
+ class 2 will use 6 clusters
+ class 3 will use 7 clusters
+Layer 9:
+ class 0 will use 43 clusters
+ class 4 will use 37 clusters
+ class 1 will use 24 clusters
+ class 2 will use 33 clusters
